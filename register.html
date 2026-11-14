@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="فرم آزمایشی ثبت‌نام دوره‌های آموزشگاه مسیر">
+  <title>ثبت‌نام | آموزشگاه مسیر</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="button button-primary skip-link" href="#main">رفتن به محتوای اصلی</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+            <path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-12-2 14"/>
+          </svg>
+        </span>
+        <span class="brand-label"><strong>آموزشگاه مسیر</strong><small>مهارت‌های کامپیوتر</small></span>
+      </a>
+
+      <button class="button button-secondary menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" hidden>منو <span aria-hidden="true">☰</span></button>
+      <nav class="site-nav" id="site-navigation" aria-label="منوی اصلی">
+        <ul>
+          <li><a class="nav-link" href="index.html">خانه</a></li>
+          <li><a class="nav-link" href="courses.html">دوره‌ها</a></li>
+          <li><a class="nav-link" href="schedule.html">برنامهٔ کلاس‌ها</a></li>
+          <li><a class="nav-link" href="instructors.html">مدرس‌ها</a></li>
+          <li><a class="nav-link" href="contact.html">تماس با ما</a></li>
+          <li><a class="nav-link nav-register" href="register.html" aria-current="page">ثبت‌نام</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container site-main" id="main" tabindex="-1">
+    <section class="page-intro">
+      <p class="eyebrow">قدم بعدی</p>
+      <h1>ثبت‌نام آزمایشی</h1>
+      <p>یک دوره انتخاب کنید و فرم زیر را کامل کنید تا نتیجهٔ بررسی فرم را ببینید.</p>
+    </section>
+
+    <div class="register-layout">
+      <section class="card form-card" aria-labelledby="form-title">
+        <h2 id="form-title">فرم ثبت‌نام دوره</h2>
+        <p id="form-hint">همهٔ فیلدها الزامی‌اند. برای امتحان فرم از اطلاعات نمونه استفاده کنید.</p>
+        <noscript><p class="note">برای آزمایش این فرم، JavaScript را فعال کنید.</p></noscript>
+        <form id="registration-form" aria-describedby="form-hint" autocomplete="off">
+          <div class="field">
+            <label for="student-name">نام و نام خانوادگی</label>
+            <input id="student-name" type="text" required minlength="2" maxlength="80" placeholder="مثلاً آوا احمدی">
+          </div>
+          <div class="field">
+            <label for="student-email">ایمیل</label>
+            <input id="student-email" type="email" required maxlength="120" dir="ltr" placeholder="student@example.com">
+          </div>
+          <div class="field">
+            <label for="course">دورهٔ موردنظر</label>
+            <select id="course" required>
+              <option value="">یک دوره انتخاب کنید</option>
+              <option value="icdl">مبانی کامپیوتر و ICDL</option>
+              <option value="web">طراحی وب با HTML و CSS</option>
+              <option value="python">برنامه‌نویسی با Python</option>
+            </select>
+          </div>
+          <button class="button button-primary" type="submit" id="submit-registration" disabled>آزمایش فرم <span aria-hidden="true">←</span></button>
+          <p class="form-result" id="registration-result" role="status"></p>
+        </form>
+      </section>
+
+      <aside class="card form-aside" aria-labelledby="before-title">
+        <p class="eyebrow">راهنمای ثبت‌نام</p>
+        <h2 id="before-title">پیش از انتخاب دوره</h2>
+        <ol>
+          <li>محتوا و سطح دوره‌ها را مرور کنید.</li>
+          <li>زمان کلاس‌ها را در جدول برنامه ببینید.</li>
+          <li>فرم را با داده‌های نمونه امتحان کنید.</li>
+        </ol>
+        <a class="text-link" href="schedule.html">دیدن برنامهٔ کلاس‌ها <span aria-hidden="true">←</span></a>
+        <p class="note">این فرم برای پروژهٔ دانشگاهی است و داده‌های واردشده را ارسال یا ذخیره نمی‌کند.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>آموزشگاه مسیر · وب‌سایت نمونه برای پروژهٔ دانشگاهی</p>
+      <a href="contact.html">راه‌های ارتباطی و پرسش‌های رایج</a>
+    </div>
+  </footer>
+</body>
+</html>

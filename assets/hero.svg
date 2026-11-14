@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" role="img" aria-labelledby="title">
+  <title id="title">رایانه‌ای با صفحهٔ کدنویسی</title>
+
+  <!-- Fine grid and orbit around the computer -->
+  <g fill="none" stroke="#315168" stroke-width="1">
+    <path d="M54 98h112m-112 24h72m-72 24h55m-55 24h55m-55 24h55M78 74v146m24-146v146m24-146v72m24-72v48" opacity=".6"/>
+    <path d="M374 237h96m-96 24h96m-96 24h96m-96 24h96m-72-96v120m24-120v120m24-120v120" opacity=".5"/>
+    <path d="M91 265a193 120 0 0 1 314-174m40 63a193 120 0 0 1-91 148" stroke-dasharray="3 7"/>
+    <path d="M45 314h428M99 337h323" opacity=".65"/>
+  </g>
+  <circle cx="91" cy="265" r="3" fill="#b6f5d6"/>
+  <circle cx="445" cy="154" r="3" fill="#b6f5d6"/>
+  <path d="M79 245v12m-6-6h12m369-41v14m-7-7h14" fill="none" stroke="#84b8af" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Monitor, stand, and keyboard -->
+  <ellipse cx="251" cy="315" rx="177" ry="15" fill="#0b1b2c" opacity=".7"/>
+  <path d="M222 248h60l8 41h-76z" fill="#96c9bd" stroke="#10243a" stroke-width="3"/>
+  <path d="M249 248h33l8 41h-34z" fill="#6ca99f"/>
+  <rect x="192" y="286" width="120" height="11" rx="5.5" fill="#b6f5d6" stroke="#10243a" stroke-width="2"/>
+  <rect x="113" y="88" width="292" height="171" rx="17" fill="#315168" stroke="#82b0a9" stroke-width="2"/>
+  <rect x="103" y="83" width="290" height="170" rx="16" fill="#b6f5d6" stroke="#10243a" stroke-width="3"/>
+  <rect x="115" y="95" width="266" height="137" rx="8" fill="#10243a"/>
+  <circle cx="364" cy="242" r="3" fill="#1d685b"/>
+  <path d="M132 241h28" stroke="#6ca99f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M159 302h177l22 19H137z" fill="#f8f6ef" stroke="#10243a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M137 321h221v4a4 4 0 0 1-4 4H141a4 4 0 0 1-4-4z" fill="#82b0a9" stroke="#10243a" stroke-width="2"/>
+  <path d="M165 308h166m-174 5h182m-121 4h60" fill="none" stroke="#819f9b" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="7 4"/>
+
+  <!-- The editor window -->
+  <path d="M123 95h250a8 8 0 0 1 8 8v17H115v-17a8 8 0 0 1 8-8z" fill="#18364e"/>
+  <circle cx="133" cy="108" r="2.4" fill="#f9c37a"/>
+  <circle cx="143" cy="108" r="2.4" fill="#b6f5d6"/>
+  <circle cx="153" cy="108" r="2.4" fill="#7ca9a6"/>
+  <path d="M158 133v84" stroke="#315168" stroke-width="1"/>
+  <g fill="none" stroke="#638689" stroke-width="2.5" stroke-linecap="round">
+    <path d="M135 141h7m-7 15h7m-7 15h7m-7 15h7m-7 15h7"/>
+  </g>
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M174 141h46m-30 30h29m-29 15h78m-94 15h29" stroke="#b6f5d6"/>
+    <path d="M230 141h35m-36 30h42" stroke="#f9c37a"/>
+    <path d="M190 156h54m9 0h33m-9 30h22" stroke="#7ca9a6"/>
+  </g>
+  <path d="m334 161-8 7 8 7m18-14 8 7-8 7m-7-17-4 20" fill="none" stroke="#b6f5d6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Floating idea motif -->
+  <circle cx="411" cy="81" r="36" fill="#18364e" stroke="#f9c37a" stroke-width="1.5"/>
+  <circle cx="411" cy="81" r="29" fill="none" stroke="#f9c37a" stroke-width="1" stroke-dasharray="2 5" opacity=".65"/>
+  <g fill="none" stroke="#f9c37a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M405 91v-3c0-3-5-6-5-12a11 11 0 0 1 22 0c0 6-5 9-5 12v3zM407 96h8m-6 4h4"/>
+    <path d="M411 83v8m-4-11 4 3 4-3"/>
+    <path d="M411 60v-3m13 9 3-3m-29 3-3-3"/>
+  </g>
+</svg>
